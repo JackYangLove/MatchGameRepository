@@ -20,25 +20,26 @@
             <RowDefinition Height="*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock x:Name="wrap" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy2" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock x:Name="TextBlock" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy2" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="0" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
 
-        <TextBlock x:Name="wrap_Copy3" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy4" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy5" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy6" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock x:Name="wrap_Copy3" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy4" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy5" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy6" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
 
-        <TextBlock x:Name="wrap_Copy7" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy8" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy9" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy10" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock x:Name="wrap_Copy7" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy8" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy9" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy10" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
 
-        <TextBlock x:Name="wrap_Copy11" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy12" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy13" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
-        <TextBlock x:Name="wrap_Copy14" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock x:Name="wrap_Copy11" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy12" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy13" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="wrap_Copy14" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Center" Grid.Row="4" Text="Elapsed time" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" Grid.ColumnSpan="4" MouseDown="timeTextBlock_MouseDown"/>
 
 
     </Grid>
